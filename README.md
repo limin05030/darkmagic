@@ -1,0 +1,2 @@
+# darkmagic
+android lib
