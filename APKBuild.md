@@ -25,6 +25,8 @@
 	        // NOTE: Do not place your application dependencies here; they belong
 	        // in the individual module build.gradle files
 	    }
+		
+		......
 	}
 	```
 
@@ -51,7 +53,11 @@
 	            include "hdpi"
 	        }
 	    }
+	
+		......
 	}
+
+	......
 	```
 	apkpublish.gradle是一个单独针对该插件的配置文件，这样方便管理，不至于将build.gradle写得过大。splits属性主要就是用来拆分包的，这里只保留了hdpi这个包。
 
